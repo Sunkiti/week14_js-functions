@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+.images{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=%5B1740%2C466%5D&w=2000&h=1333&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F04%2F20%2Fbengal-wood-walking-867775498-2000.jpg');
+}
+.left, .right {
+    background-color: black;
+    color:aliceblue;
+    border-radius: 20%;
+    margin-top: 10px;
+}
+.right:hover{
+    color:blueviolet;
+}
+.left:hover{
+    color:blueviolet;
+}
